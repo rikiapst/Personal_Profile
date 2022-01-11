@@ -63,5 +63,15 @@ a{
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  padding: 100px 0px 0px 0px;
+  padding: 25px 0px 0px 0px;
+}
+
+.frontend-skills, .backend-skills, .web30-skills, .logic-skills{
+  display: inline-flex;
+  justify-content: space-around;
+  border-style: solid;
+  background-color: rgb(163, 151, 132);
+  margin: 43px 0px 16px 37px;
+  width: 21%;
+  height: 580px;
 }
