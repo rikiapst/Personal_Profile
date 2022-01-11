@@ -24,6 +24,7 @@ body{
   display: flex;
   justify-content: space-evenly;
   padding: 1rem;
+  letter-spacing: 0.1rem;
 }
 
 .logo-nav{
@@ -34,6 +35,33 @@ body{
 a{
   outline: none;
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
+.code{
+  margin: 0 0px;
+  width:auto
+}
+
+.landing{
+  background-color: burlywood;
+  margin: 0 0px;
+  width: 100%;
+  height: 613px;
+}
+
+.skills-main, .education-main, .projects-main, .reviews-main, .about-main, .blogs-main, .contact-main{
+  border-bottom: black;
+  border-style: solid;
+  background-color: rgb(250, 240, 226);
+  margin: 0 0px;
+  width: 100%;
+  height: 657px;
+}
+
+.all-mains h2, .landing{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  padding: 100px 0px 0px 0px;
+}
