@@ -55,28 +55,14 @@ body{
   padding: 16px 0px 0px 50px;
 }
 
+header {
+  position: fixed;
+}
+
 a{
   outline: none;
   text-decoration: none;
   color: #ffffff;
-}
-
-.code{
-  margin: 0 0px;
-  width:auto
-}
-
-.landing{
-  margin: 0 0px;
-  width: 100%;
-  height: 613px;
-}
-
-.skills-main, .education-main, .projects-main, .reviews-main, .about-main, .blogs-main, .contact-main{
-  border-width: 1px;
-  margin: 0 0px;
-  width: 100%;
-  height: 657px;
 }
 
 .all-mains h2, .landing{
@@ -85,6 +71,20 @@ a{
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   padding: 25px 0px 0px 0px;
+}
+
+.landing{
+  margin: 0 0px;
+  width: 100%;
+  height: 613px;
+  padding: 144px 0px 0px 0px;
+}
+
+.skills-main, .training-main, .projects-main, .reviews-main, .about-main, .articles-main, .contact-main{
+  border-width: 1px;
+  margin: 0 0px;
+  width: 100%;
+  height: 657px;
 }
 
 
