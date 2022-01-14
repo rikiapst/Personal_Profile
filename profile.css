@@ -8,16 +8,17 @@ body{
   background-color: #eeeeee;
 }
 
-.nav-bar{
-  background-color: #AAAAAA;
+.first-nav{
+  background-color: #000000;
   width: auto;
   height:44px;
   margin: 0 0px;
   display: flex;
+  padding: 0%;
  
 }
 
-.nav-bar li{
+.first-nav li{
   color: #eeeeee;
   text-transform: uppercase;
   font-size: 11px;
@@ -27,17 +28,37 @@ body{
   justify-content: space-evenly;
   padding: 1rem;
   letter-spacing: 0.1rem;
+  margin: 0px 15px 0px -54px;
 }
 
-.logo-nav{
-  margin-right: auto;
-  font-size:20px ;
+.second-nav{
+  background-color: #5e5e5e8f;
+  width: 100%;
+  height: 63px;
+  margin: 0px 0px 0px 0px;
+  display: flex;
+  padding: 0px 0px 0px 63px;
+  justify-content: space-between;
+ 
+}
+
+.second-nav li{
+  color: #eeeeee;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  height: 33px;
+  display: flex;
+  justify-content: space-evenly;
+  letter-spacing: 0.11rem;
+  margin: 9px 117px 0px -65px;
+  padding: 16px 0px 0px 50px;
 }
 
 a{
   outline: none;
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 .code{
